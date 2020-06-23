@@ -3,9 +3,11 @@
 
 #### What is a Enviroment
 
+Is a location where code runs and data lives
+
 #### Dev Enviroment
 
-Is a location where code runs and data lives
+The Developer Environment is where the developers write code, this will likely be on an individual's local machine.
 
 #### 4 pillars of Devops
 
@@ -68,6 +70,13 @@ Windows - Package Manager for Windows - Package Manager is the application insta
 #### What is the package manager for Ubuntu?
 
 apt command (Advanced Packaging Too) - performing such functions as installation of new software packages, upgrade of existing software packages, updating of the package list index, and even upgrading the entire Ubuntu system.
+
+
+#### NGINX
+
+NGINX is a web server that can be used for web serving and also as a reverse proxy.
+
+
 
 
 

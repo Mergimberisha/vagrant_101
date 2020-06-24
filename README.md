@@ -79,4 +79,26 @@ NGINX is a web server that can be used for web serving and also as a reverse pro
 
 
 
+1. config.vm.box | This is our Operating System! We will be using ubuntu/xenial64 bit
+2. config.vm.provider | This is VirtualBox
+3. config.vm.network | How your host computer sees your box
+4. config.vm.synced_folder | How you access files from your computer
+5. config.vm.provision | What do we want to run as a provision for shell commands. What dependencies are needed? Node js? nginx?
+If we dont use provisions, Vagrant will just run a blank ubuntu server
+
+ 
+
+### Commands
+
+ 
+
+1. vagrant init | Initiates Vagrant 
+2. vagrant up | Activates Vagrant file and runs Virtual machine
+3. vagrant suspends | Saves the virtual machine and suspend it / make it offline
+4. vagrant resume | Resumes the virtual machine
+5. vagrant destroy | Destroys the virtual machine
+6. vagrant ssh | Makes us go inside of our virtual box. We can run | sudo apt-get update, 
+sudo apt-get install nginx
+
+
 
